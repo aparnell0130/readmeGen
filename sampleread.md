@@ -1,18 +1,24 @@
-# readme gen
-  ## Description
-  gen read me
+# Readme Gen
   ## Table of Contents
-  undefined
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
+  ## Description
+  creates readme files
   ## Installation
-  download
-  ## usage
-  create read me files
+  download app
+  ## Usage
+  run app
   ## License
-  Do What The F*ck You Want To Public License	wtfpl
+  Academic Free License v3.0	afl-3.0
   ## Contributing
   help me
   ## Tests
-  run the program
+  run app
   ## Questions
-  gitme
-  nope
+  Github: gitMe  
+  Email: alto@uw.com
