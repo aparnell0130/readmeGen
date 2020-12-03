@@ -1,4 +1,4 @@
-# Readme Gen
+# 
   ## Table of Contents
   - [Description](#Description)
   - [Installation](#Installation)
@@ -8,17 +8,17 @@
   - [Tests](#Tests)
   - [Questions](#Questions)
   ## Description
-  creates readme files
+  
   ## Installation
-  download app
+  
   ## Usage
-  run app
+  
   ## License
-  Academic Free License v3.0	afl-3.0
+  Creative Commons license family
   ## Contributing
-  help me
+  
   ## Tests
-  run app
+  
   ## Questions
-  Github: gitMe  
-  Email: alto@uw.com
+  Github:   
+  Email: 
