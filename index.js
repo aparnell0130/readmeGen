@@ -4,7 +4,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js')
 const licenses = require('./utils/objects.js')
 const licVal = []
 for (let i = 0; i < licenses.length; i++) {
-    licVal.push(licenses[i].License);
+    licVal.push(licenses[i].licenseName);
 
 }
 // console.log(licVal)

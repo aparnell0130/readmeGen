@@ -1,173 +1,173 @@
 const licenses = [
     {
-        License: 'Academic Free License v3.0',
-        LicenseKey: 'afl-3.0'
+        licenseName: 'Academic Free License v3.0',
+        licenseKey: 'afl-3.0'
     },
     {
-        License: 'Apache license 2.0',
-        LicenseKey: 'apache-2.0',
+        licenseName: 'Apache license 2.0',
+        licenseKey: 'apache-2.0',
     },
     {
-        License: 'Artistic license 2.0',
-        LicenseKey: 'artistic-2.0',
+        licenseName: 'Artistic license 2.0',
+        licenseKey: 'artistic-2.0',
 
     },
     {
-        License: 'Boost Software License 1.0',
-        LicenseKey: 'bsl-1.0',
+        licenseName: 'Boost Software License 1.0',
+        licenseKey: 'bsl-1.0',
 
     },
     {
-        License: 'BSD 2-clause "Simplified" license',
-        LicenseKey: 'bsd-2-clause',
+        licenseName: 'BSD 2-clause "Simplified" license',
+        licenseKey: 'bsd-2-clause',
 
     },
     {
-        License: 'BSD 3-clause "New" or "Revised" license',
-        LicenseKey: 'bsd-3-clause',
+        licenseName: 'BSD 3-clause "New" or "Revised" license',
+        licenseKey: 'bsd-3-clause',
 
     },
     {
-        License: 'BSD 3-clause Clear license',
-        LicenseKey: 'afl-3.0'
+        licenseName: 'BSD 3-clause Clear license',
+        licenseKey: 'afl-3.0'
     },
     {
-        License: 'Academic Free License v3.0',
-        LicenseKey: 'bsd-3-clause-clear',
+        licenseName: 'Academic Free License v3.0',
+        licenseKey: 'bsd-3-clause-clear',
 
     },
     {
-        License: 'Creative Commons license family',
-        LicenseKey: 'cc',
+        licenseName: 'Creative Commons license family',
+        licenseKey: 'cc',
 
     },
     {
-        License: 'Creative Commons Zero v1.0 Universal',
-        LicenseKey: 'cc0-1.0',
+        licenseName: 'Creative Commons Zero v1.0 Universal',
+        licenseKey: 'cc0-1.0',
 
     },
     {
-        License: 'Creative Commons Attribution 4.0	',
-        LicenseKey: 'cc-by-4.0',
+        licenseName: 'Creative Commons Attribution 4.0	',
+        licenseKey: 'cc-by-4.0',
 
     },
     {
-        License: 'Creative Commons Attribution Share Alike 4.0',
-        LicenseKey: 'cc-by-sa-4.0',
+        licenseName: 'Creative Commons Attribution Share Alike 4.0',
+        licenseKey: 'cc-by-sa-4.0',
 
     },
     {
-        License: 'Do What The F*ck You Want To Public License	',
-        LicenseKey: 'wtfpl',
+        licenseName: 'Do What The F*ck You Want To Public License	',
+        licenseKey: 'wtfpl',
 
     },
     {
-        License: 'Educational Community License v2.0	',
-        LicenseKey: 'ecl-2.0',
+        licenseName: 'Educational Community License v2.0	',
+        licenseKey: 'ecl-2.0',
 
     },
     {
-        License: 'CEclipse Public License 1.0',
-        LicenseKey: 'epl-1.0',
+        licenseName: 'CEclipse Public License 1.0',
+        licenseKey: 'epl-1.0',
 
     },
     {
-        License: 'Eclipse Public License 2.0',
-        LicenseKey: 'epl-2.0',
+        licenseName: 'Eclipse Public License 2.0',
+        licenseKey: 'epl-2.0',
 
     },
     {
-        License: 'European Union Public License 1.1',
-        LicenseKey: 'eupl-1.1',
+        licenseName: 'European Union Public License 1.1',
+        licenseKey: 'eupl-1.1',
 
     },
     {
-        License: 'GNU Affero General Public License v3.0',
-        LicenseKey: 'agpl-3.0',
+        licenseName: 'GNU Affero General Public License v3.0',
+        licenseKey: 'agpl-3.0',
 
     },
     {
-        License: 'GNU General Public License family',
-        LicenseKey: 'gpl'
+        licenseName: 'GNU General Public License family',
+        licenseKey: 'gpl'
     },
     {
-        License: 'GNU General Public License v2.0',
-        LicenseKey: 'gpl-2.0',
+        licenseName: 'GNU General Public License v2.0',
+        licenseKey: 'gpl-2.0',
 
     },
     {
-        License: 'GNU General Public License v3.0',
-        LicenseKey: 'gpl-3.0',
+        licenseName: 'GNU General Public License v3.0',
+        licenseKey: 'gpl-3.0',
 
     },
     {
-        License: 'GNU Lesser General Public License family',
-        LicenseKey: 'lgpl',
+        licenseName: 'GNU Lesser General Public License family',
+        licenseKey: 'lgpl',
 
     },
     {
-        License: 'GNU Lesser General Public License v2.1',
-        LicenseKey: 'lgpl-2.1',
+        licenseName: 'GNU Lesser General Public License v2.1',
+        licenseKey: 'lgpl-2.1',
 
     },
     {
-        License: 'GNU Lesser General Public License v3.0',
-        LicenseKey: 'lgpl-3.0',
+        licenseName: 'GNU Lesser General Public License v3.0',
+        licenseKey: 'lgpl-3.0',
 
     },
     {
-        License: 'ISC',
-        LicenseKey: 'isc',
+        licenseName: 'ISC',
+        licenseKey: 'isc',
 
     },
     {
-        License: 'LaTeX Project Public License v1.3c',
-        LicenseKey: 'lppl-1.3c',
+        licenseName: 'LaTeX Project Public License v1.3c',
+        licenseKey: 'lppl-1.3c',
 
     },
     {
-        License: 'Microsoft Public License',
-        LicenseKey: 'ms-pl',
+        licenseName: 'Microsoft Public License',
+        licenseKey: 'ms-pl',
 
     },
     {
-        License: 'MIT',
-        LicenseKey: 'mit',
+        licenseName: 'MIT',
+        licenseKey: 'mit',
 
     },
     {
-        License: 'Mozilla Public License 2.0',
-        LicenseKey: 'mpl-2.0',
+        licenseName: 'Mozilla Public License 2.0',
+        licenseKey: 'mpl-2.0',
 
     },
     {
-        License: 'Open Software License 3.0',
-        LicenseKey: 'osl-3.0',
+        licenseName: 'Open Software License 3.0',
+        licenseKey: 'osl-3.0',
 
     },
     {
-        License: 'PostgreSQL License',
-        LicenseKey: 'postgresql',
+        licenseName: 'PostgreSQL License',
+        licenseKey: 'postgresql',
 
     },
     {
-        License: 'SIL Open Font License 1.1	',
-        LicenseKey: 'ofl-1.1',
+        licenseName: 'SIL Open Font License 1.1	',
+        licenseKey: 'ofl-1.1',
 
     },
     {
-        License: 'University of Illinois/NCSA Open Source License',
-        LicenseKey: 'ncsa',
+        licenseName: 'University of Illinois/NCSA Open Source License',
+        licenseKey: 'ncsa',
 
     },
     {
-        License: 'The Unlicense',
-        LicenseKey: 'unlicense',
+        licenseName: 'The Unlicense',
+        licenseKey: 'unlicense',
 
     },
     {
-        License: 'zLib License',
-        LicenseKey: 'zlib',
+        licenseName: 'zLib License',
+        licenseKey: 'zlib',
 
     },
 ]

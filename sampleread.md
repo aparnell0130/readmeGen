@@ -14,7 +14,7 @@
   ## Usage
   
   ## License
-  Creative Commons license family
+  [BSD 2-clause "Simplified" license](https://opensource.org/licenses/bsd-2-clause)
   ## Contributing
   
   ## Tests
