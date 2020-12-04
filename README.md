@@ -4,7 +4,7 @@
   
   ## Table of Contents
   - [Description](#Description)
-  - [Tools/Technologies](#Tools/Technologies)
+  - [Tools_&_Technologies](#Tools_&_Technologies)
   - [Code](#Code)
   - [License](#License)
   - [Repo_Link](#Repo_Link)
@@ -14,7 +14,7 @@
   ## Description
   This application will generate a quality readMe file.
 
-  ## Tools/Technologies
+  ## Tools_&_Technologies
 - JavaScript
 - Node
 - npm Inquirer
