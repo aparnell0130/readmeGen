@@ -36,9 +36,8 @@ inquirer
 - [ReadMe Gen Repo](https://github.com/aparnell0130/readmeGen)
 
 ## Example
-<video width="320" height="240" controls>
-  <source src="assets/readmeGenDemo.webm" type="video/mp4">
-</video>
+<iframe src="https://drive.google.com/file/d/1QaXqoOZsU7cTLCmI-LlCxTAQl3MjP7mw/preview" width="640" height="480">
+</iframe>
 
 ## License
 - MIT License
