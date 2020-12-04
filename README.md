@@ -16,6 +16,8 @@
 
   ## Tools/Technologies
 - JavaScript
+- Node
+- npm Inquirer
 
 ## Code
  Write question responses to readMe
