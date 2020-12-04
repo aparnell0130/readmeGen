@@ -11,7 +11,7 @@
   - [Questions](#Questions)
 
   ## Description
-  This application will generate a quality readMe file.
+   This application will generate a quality readMe file.
 
   ## Installation
   install node, enter "npm i" in terminal/bash while in correct folder.
