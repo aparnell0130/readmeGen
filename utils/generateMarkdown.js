@@ -5,6 +5,7 @@ const generateMarkdown = (data) => {
   let licName
   let licKey
   let licBadge
+  let licDesc
   for (let i = 0; i < licenses.length; i++) {
     licName = licenses[i].licenseName;
 
@@ -13,6 +14,9 @@ const generateMarkdown = (data) => {
     }
     if (data.license == licName) {
       licBadge = licenses[i].licenseBadge
+    }
+    if (data.license == licName) {
+      licDesc = licenses[i].licenseDesc
     }
 
   }
@@ -38,7 +42,8 @@ const generateMarkdown = (data) => {
   ${data.usage}
 
   ## License
-  [${data.license}](https://opensource.org/licenses/${licKey})
+  [${data.license}](https://opensource.org/licenses/${licKey})  
+  ${licDesc}
 
   ## Contributing
   ${data.contribute}
@@ -47,7 +52,8 @@ const generateMarkdown = (data) => {
   ${data.tests}
 
   ## Questions
-  Github: ${data.github}  
+  Github: [${data.github}](${data.githubLink})  
+  LinkedIn: [${data.linkedIn}](${data.linkedInLink})  
   Email: ${data.email}
 `;
 }

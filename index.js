@@ -54,6 +54,21 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'githubLink',
+        message: 'Enter link to your GitHub profile',
+    },
+    {
+        type: 'input',
+        name: 'linkedIn',
+        message: 'Enter your first and last name',
+    },
+    {
+        type: 'input',
+        name: 'linkedInLink',
+        message: 'Enter link to your LinkedIn profile',
+    },
+    {
+        type: 'input',
         name: 'email',
         message: 'Enter your email address',
     },
