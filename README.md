@@ -55,7 +55,7 @@ inquirer
 
 ## Example
 
-[![ALT TEXT](assets\demo.PNG)](https://drive.google.com/file/d/1Arm1zvdOX_CNLU85Hm_EmGpjcvNUIABG/view)
+[![ALT TEXT](assets/demo.PNG)](https://drive.google.com/file/d/1Arm1zvdOX_CNLU85Hm_EmGpjcvNUIABG/view)
 
 ## License
 - MIT License
