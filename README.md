@@ -4,6 +4,8 @@
   
   ## Table of Contents
   - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
   - [Tools_&_Technologies](#Tools_&_Technologies)
   - [Code](#Code)
   - [License](#License)
@@ -11,10 +13,24 @@
   - [Example](#Example)
   - [Author_Info](#Author_Info)
 
-  ## Description
-  This application will generate a quality readMe file.
+## Description
+This application will generate a quality readMe file. If you need a concrete readMe file simply follow the installation, and usage guidelines.
 
-  ## Tools_&_Technologies
+    Note: You will only need to do the installation once.
+
+##  Installation
+- Install node
+- Download repo zip file
+- Enter "npm i" in VSCode integrated terminal or GitBash/Terminal while in correct folder.
+
+## Usage
+### After install 
+1. Open VSCode integrated terminal or GitBash/Terminal
+2. Path to correct folder
+3. Run file by entering "node index.js"
+4. Answer prompted questions.
+
+## Tools_&_Technologies
 - JavaScript
 - Node
 - npm Inquirer
@@ -38,9 +54,8 @@ inquirer
 - [ReadMe Gen Repo](https://github.com/aparnell0130/readmeGen)
 
 ## Example
-<a href="https://drive.google.com/file/d/1Arm1zvdOX_CNLU85Hm_EmGpjcvNUIABG/view">
-    <img src="assets\demo.PNG">
-</a>
+
+[![ALT TEXT](assets\demo.PNG)](https://drive.google.com/file/d/1Arm1zvdOX_CNLU85Hm_EmGpjcvNUIABG/view)
 
 ## License
 - MIT License
