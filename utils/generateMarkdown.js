@@ -9,16 +9,11 @@ const generateMarkdown = (data) => {
   for (let i = 0; i < licenses.length; i++) {
     licName = licenses[i].licenseName;
 
-    if (data.license == licName) {
+    if (data.license === licName) {
       licKey = licenses[i].licenseKey
-    }
-    if (data.license == licName) {
       licBadge = licenses[i].licenseBadge
-    }
-    if (data.license == licName) {
       licDesc = licenses[i].licenseDesc
     }
-
   }
   return `# ${data.title}
 
