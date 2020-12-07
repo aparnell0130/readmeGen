@@ -54,6 +54,7 @@ inquirer
 - [ReadMe Gen Repo](https://github.com/aparnell0130/readmeGen)
 
 ## Example
+### Click picture to run video. For best quality, run video in full screen.
 
 [![ALT TEXT](assets/demo.PNG)](https://drive.google.com/file/d/1Arm1zvdOX_CNLU85Hm_EmGpjcvNUIABG/view)
 
