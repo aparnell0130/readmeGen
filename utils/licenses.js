@@ -1,3 +1,4 @@
+// array of license objects
 const licenses = [
     {
         licenseName: 'Apache license 2.0',
@@ -120,4 +121,5 @@ const licenses = [
         licenseDesc: 'Copyright (c) <year> <copyright holders> This software is provided "as-is", without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software. Click license for more detail'
     },
 ]
+// export array of objects
 module.exports = licenses

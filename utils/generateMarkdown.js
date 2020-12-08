@@ -1,3 +1,4 @@
+// get license module
 const licenses = require('./licenses.js')
 
 // function to generate markdown for README
@@ -6,16 +7,23 @@ const generateMarkdown = (data) => {
   let licKey
   let licBadge
   let licDesc
+  // loop through license names
   for (let i = 0; i < licenses.length; i++) {
     licName = licenses[i].licenseName;
-
+    // compare license names to license chosen by user
+    // if user choice matches 
     if (data.license === licName) {
+      // then set these values
       licKey = licenses[i].licenseKey
       licBadge = licenses[i].licenseBadge
       licDesc = licenses[i].licenseDesc
     }
   }
-  return `# ${data.title}
+
+  // readme structure
+  // taking in user inputs and displaying them on the readme
+  return `
+  # ${data.title}
 
   ${licBadge}
   ## Table of Contents
@@ -52,5 +60,5 @@ const generateMarkdown = (data) => {
   Email: ${data.email}
 `;
 }
-
+// export generateMarkdown
 module.exports = generateMarkdown;

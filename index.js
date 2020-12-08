@@ -1,13 +1,16 @@
+// get modules
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js')
 const licenses = require('./utils/licenses.js')
+// empty array for license names
 const licVal = []
+// loop through license names for user choices
 for (let i = 0; i < licenses.length; i++) {
     licVal.push(licenses[i].licenseName);
 
 }
-// console.log(licVal)
+
 // array of questions for user
 const questions = [
     {
@@ -75,13 +78,18 @@ const questions = [
 
 ];
 
+// use inquirer to prompt questions for user
 inquirer
     .prompt(questions).then((data) => {
-        console.log(data)
+        // get information back from user
         const readme = generateMarkdown(data)
+        // create readme file using information from user
         fs.writeFile('sampleread.md', readme, (err) => {
+            // check for error
             err ?
+                // if failed console log 
                 console.log('FAILED TO WRITE FILE') :
+                // if success console log
                 console.log('THE FILE HAS BEEN WRITTEN')
         })
     });
